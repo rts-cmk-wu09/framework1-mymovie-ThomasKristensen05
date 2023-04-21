@@ -1,8 +1,19 @@
+import styled from "styled-components"
+
+const Heading = styled.h1 `
+
+    font-size: 16px;
+    color: #110e47;
+
+`
+
+
+
 const HeadingOne = () => {
 
     return (
         
-        <h1>Overskrift</h1>
+        <Heading>Overskrift</Heading>
         
     )
 

@@ -1,4 +1,7 @@
+import styled from "styled-components";
 import coverimage from "../assets/Poster.png"
+
+
 
 const Image = () => {
     return ( 

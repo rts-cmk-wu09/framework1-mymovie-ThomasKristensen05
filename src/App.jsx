@@ -14,11 +14,11 @@ function App() {
 
     <main>
       <section>
-        <div className="flexContainer">
+        <div className="flexContainer space-between">
           <HeadingTwo />
           <SeeMoreButton />
         </div>
-        <div className="flexContainer">
+        <div className="flexContainer scroll movieCardContainer">
           <MovieCard />
           <MovieCard />
           <MovieCard />

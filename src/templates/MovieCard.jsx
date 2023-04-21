@@ -7,9 +7,9 @@ const MovieCard = () => {
         <article>
             <figure>
                 <Image />
-                <Heading3 />
-                <MovieRating />
             </figure>
+            <Heading3 />
+            <MovieRating />
         </article>
      );
 }
