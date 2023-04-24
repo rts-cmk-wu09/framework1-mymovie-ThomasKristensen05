@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Mulish:wght@300&display=swap');
-
-body {
-  margin: 0;
-}
+@import "normalize.css";
 
 #root {
   max-width: 768px;
   padding: 2rem;
   font-family: 'Mulish', sans-serif;
+}
+
+header {
+  height: 60px;
 }
 
 h1,h2,h3 {
@@ -23,22 +24,32 @@ h1,h2,h3 {
   align-items: center;
 }
 
-.scroll {
+.movieCardContainer {
+  margin: 2rem -2rem;
+  gap: 1rem;
+  padding-left: 2rem;
+  padding-left: 1rem;
+  height: 320px;
   overflow-x: scroll;
   -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-.scroll::-webkit-scrollbar {
+.movieCardContainer::-webkit-scrollbar {
   display: none;
 }
 
-.movieCardContainer {
-  margin: 0 -2rem;
-  gap: 1rem;
-  padding: 2rem;
-}
-
-figure {
+figure,
+body,
+p,
+h1,
+h2,
+h3 {
   margin: 0;
   padding: 0;
 }
+
+.gridContainer {
+  display: grid;
+}
+
