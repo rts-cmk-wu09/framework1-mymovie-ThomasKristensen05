@@ -1,21 +1,21 @@
 import './App.css'
-import HeadingOne from './components/HeadingOne'
-import HeadingTwo from './components/HeadingTwo'
+import Heading from './components/Heading'
 import SeeMoreButton from './components/SeeMoreButton'
 import MovieCard from './templates/MovieCard'
+import Switch from "react-switch"
 
 function App() {
   return (
     <div className="App">
-
     <header className='gridContainer'>
-      <HeadingOne />
+      <Heading title="MyMovies" size="16"/>
+      <Switch />
     </header>
 
     <main>
       <section>
         <div className="flexContainer space-between">
-          <HeadingTwo />
+          <h2>Now Showing</h2>
           <SeeMoreButton />
         </div>
         <div className="flexContainer movieCardContainer">

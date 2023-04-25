@@ -1,5 +1,5 @@
 import Image from "../components/Image";
-import Heading3 from "../components/Heading3"
+import Heading from "../components/Heading"
 import MovieRating from "../components/MovieRating";
 import styled from "styled-components";
 
@@ -16,7 +16,7 @@ const MovieCard = () => {
             <figure>
                 <Image />
             </figure>
-            <Heading3 />
+            <h3>Movie name</h3>
             <MovieRating />
         </StyledArticle>
      );
