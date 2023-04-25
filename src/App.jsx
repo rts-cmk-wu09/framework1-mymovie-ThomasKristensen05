@@ -8,14 +8,14 @@ function App() {
   return (
     <div className="App">
     <header className='gridContainer'>
-      <Heading title="MyMovies" size="16"/>
+      <Heading title="MyMovies" size="16" weight="regular" color="#110E47" as="h1"/>
       <Switch />
     </header>
 
     <main>
       <section>
         <div className="flexContainer space-between">
-          <h2>Now Showing</h2>
+          <Heading title="Now Showing" size="16" weight="weightregular" color="#110E47" as="h2" />
           <SeeMoreButton />
         </div>
         <div className="flexContainer movieCardContainer">
